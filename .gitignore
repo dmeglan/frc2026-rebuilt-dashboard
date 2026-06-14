@@ -1,0 +1,8 @@
+# Publish repo: only the built static site is tracked on GitHub.
+# Everything else (pipeline source, codex_data.json, large local files) stays local.
+*
+!.gitignore
+!README.md
+!index.html
+!deep-dive.html
+!deep-dive.pdf
